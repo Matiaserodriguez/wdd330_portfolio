@@ -30,3 +30,10 @@ textarea {
   height: 300px;
   background-color: lightyellow;
 }
+
+.wrapper {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
