@@ -10,6 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
     <link rel="stylesheet" href="css/small.css" />
+    <script type="module" src="js/ToDos.js"></script>
   </head>
   <body>
     <header></header>
@@ -19,19 +20,18 @@
       <section class="card-todo">
         <h2 class="title">Todos</h2>
         <div class="list"></div>
+        <div class="buttons">
+          <button class="all">All</button>
+          <button class="active">Active</button>
+          <button class="completed">Completed</button>
+        </div>
         <div class="input-field">
-          <input
-            id="task"
-            type="text"
-            placeholder="Clean the house"
-            onkeypress="pulsar(event)"
-          />
+          <input id="task" type="text" placeholder="Clean the house" />
           <img id="adds" src="images/plus.png" alt="add-plus" width="20px" />
         </div>
       </section>
     </main>
 
     <footer></footer>
-    <script src="js/ToDos.js"></script>
   </body>
 </html>
