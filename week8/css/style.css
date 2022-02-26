@@ -1,0 +1,49 @@
+.ad-ad2 h2:hover span {
+  font-size: 30px;
+  color: #484848;
+  transform: rotate(10deg) translateX(40px) scale(1.5);
+  display: inline-block;
+  transition-duration: 2s;
+}
+
+.ad-ad2 h2 span {
+  transition-property: transform;
+}
+
+.ad-ad2 {
+  width: 6rem;
+}
+
+.skew {
+  margin-top: 75px;
+  transform: skew(15deg, 4deg);
+}
+
+.square .square1 {
+  width: 70px;
+  height: 70px;
+  border: dashed 1px white;
+}
+
+.square .square2 {
+  width: 70px;
+  height: 70px;
+  border: solid 1px red;
+  margin-left: 150px;
+}
+
+.square .square1:hover {
+  transform: translateX(150px) rotate(135deg);
+  transition-duration: 1s;
+}
+
+.square .square2:hover {
+  transform: rotate(135deg) translateX(200px);
+  transition-duration: 3s;
+  transition-timing-function: ease-out;
+  transition-delay: 50ms;
+}
+
+.myCanvas {
+  border: dotted 2px pink;
+}
