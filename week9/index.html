@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 9</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
+    <link rel="stylesheet" href="../css/style.css"></link>
+    <link rel="stylesheet" href="css/style.css"></link>
+  </head>
+  <body>
+    <h1>Week 9 Notes</h1>
+
+    <p>The following popup will be open for 3 seconds, then closed:</p>
+    <button class="popup">PopUp</button>
+
+    <a href="animation/"><br>Animation Example</a>
+
+    <h2>Notes</h2>
+
+    <h3>Workers</h3>
+    <p>Workers allow us to run scripts in background threads. That means that our main program/js file can be running
+      and the worker will take care of an specific task in the background.<br>Since JS is single-thread, take this approach
+      is very usefull when we need to perform complex operations but still need our main app up and running.<br>
+      It's an object that runs a named JS file containing our code to be executed in the worker thread.<br>
+      Limitations are, for example, we cannot manipulate the DOM with a worker instance. But anything related with the global object (window).<br>
+      The postMessage() method is the one that is used to send the data between workers, and they respond via the "onmessage" event handler.
+
+    </p>
+    <script src="main.js"></script>
+  </body>
+</html>
