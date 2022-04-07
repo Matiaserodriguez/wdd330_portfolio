@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA - WDD330</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/src/main/index.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div id="blue-part"></div>
+        <img src="images/IMG_20210926_164519704.jpg" alt="main-photo">
+    </header>
+    
+    <main>
+        <div class="wrapper">
+            <div class="who-im">
+                <h1>Who I'm?</h1>
+                <p>I'm Matias Rodriguez and I'm a Full-Stack Developer.<br>
+                    I'm 100% commitment with my job, and will always provide solutions.<br>
+                    In this dev environment, constant changes requires constant learning, and I love that. That's why I'm pursuing my BS applied to technology on BYUI-Online.<br>
+                    My focus is allways been up to date.</p>
+                    <div class="skills">
+                        <img src="images/pythonflask.png" alt="python flask">
+                        <img src="images/nodeExpressAws.png" alt="nodejs">
+                        <img src="images/mongosql.png" alt="mongo-sql">
+                        <img src="images/html-css.png" alt="html-css">
+                        <img src="images/php.png" alt="php">
+                        <img src="images/js.png" alt="js">
+                    </div>
+                </div>
+                
+                <h2>Personal Projects</h2>
+                <section class="projects"></section>
+                
+
+                <section class="emailPost">
+                    <h2>Contact Me</h2>
+                    <form id="emailPost">
+                        <div class="information">
+                            <label for="emailPost"> Your Name
+                                <input type="text" name="name" id="name" required>
+                            </label>
+                            <label for="emailPost"> Your Email
+                                <input type="email" name="email" id="email" required>
+                            </label>
+                            <label for="emailPost"> Job's Link
+                                <input type="link" name="companyPost" id="companyPost" required>
+                            </label>
+                        </div>
+                        <label for="emailPost"> Your message
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </label>
+                        
+                        <input id="submit-btn" type="submit" value="Send Message">
+                        <input type="hidden" name="action" value="email-sent">
+                        
+                    </form>
+                </section>
+
+                <section class="thank-you hidden"></section>
+                
+            </div>
+            
+        </main>
+        
+        <footer>
+            <div class="footer-part">
+                <h2>Want to chat?</h2>
+                <h3> Reach out to me:</h3> 
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/matiaserodriguez96/"><img src="images/linkedin.png" alt="linkedin"></a>
+                    <a href="https://github.com/Matiaserodriguez"><img src="images/github.png" alt="github"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

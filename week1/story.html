@@ -12,19 +12,22 @@
     <link rel="stylesheet" href="../css/style.css"></link>
   </head>
 <body>
+  <div class="wrapper-p">
+
     <h1>Story Editor</h1>
     <div class="editor">
-
-        Story Name:<input id=name_input></input>
-            <section>
-                    <button onclick="loadStory()">Find and Edit It</button>
-                    <button onclick="saveStory()">Save It</button>
-                    <button onclick="displayStory()">Display It</button>
-            </section>
-        <textarea id="story_editor" placeholder="Write a totally awesome story here."></textarea>
-        <section id="story_display"></section>
+      
+      Story Name:<input id=name_input></input>
+      <section>
+        <button onclick="loadStory()">Find and Edit It</button>
+        <button onclick="saveStory()">Save It</button>
+        <button onclick="displayStory()">Display It</button>
+      </section>
+      <textarea id="story_editor" placeholder="Write a totally awesome story here."></textarea>
+      <section id="story_display"></section>
     </div>
-
+    
+  </div>
     <script src="js/script.js"></script>
 </body>
 </html>

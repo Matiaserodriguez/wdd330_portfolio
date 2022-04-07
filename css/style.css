@@ -1,13 +1,11 @@
 body {
-  padding: 1rem;
+  padding: 0;
+  margin: 0;
   background: linear-gradient(rgb(48, 50, 62), rgb(30, 31, 42));
-  height: 200vh;
+  background-size: cover;
+  height: 150vh;
   color: white;
-}
-
-.my-ol {
-  margin: 0 auto;
-  color: rgb(235, 18, 18);
+  text-align: center;
 }
 
 a {
@@ -26,7 +24,6 @@ li {
 }
 
 textarea {
-  width: 400px;
   height: 300px;
   background-color: lightyellow;
 }
@@ -36,4 +33,121 @@ textarea {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+}
+
+.my-ol {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style-type: none;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.my-ol li a {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(rgb(37, 37, 38), rgb(30, 31, 42));
+}
+
+.my-ol li a:hover {
+  box-shadow: 1px 0 5px rgb(16, 16, 16);
+}
+
+.section-principal {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.section-principal .portfolio {
+  width: 100%;
+  display: flex;
+}
+
+.section-principal .portfolio div {
+  color: #000;
+  font-size: 4em;
+  background: #ffffff;
+  white-space: nowrap;
+  font-weight: 900;
+  text-transform: uppercase;
+  animation: animate 40s linear infinite;
+  animation-delay: -40s;
+}
+
+.section-principal .portfolio.text {
+  transform: rotate(10deg) translateY(100px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.section-principal .portfolio.text2 {
+  transform: rotate(-10deg) translateY(400px) translateX(-100px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.section-principal .portfolio div:nth-child(2) {
+  animation: animate-two 40s linear infinite;
+  animation-delay: -20s;
+}
+
+.section-principal .portfolio div span {
+  -webkit-text-stroke: 2px #000;
+  color: transparent;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes animate-two {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.wrapper-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding {
+  padding: 1.5rem;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.prev-next {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.seven {
+  box-shadow: 1px 0 5px rgb(16, 16, 16);
+  padding: 1rem;
+}
+
+.body8 {
+  height: auto;
 }

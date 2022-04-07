@@ -1,0 +1,34 @@
+{
+    "projects": [
+      {
+        "name": "Books Store - Python & Flask",
+        "logo": "books-store.jpg",
+        "link": "https://book-store-arg.herokuapp.com/"
+      },
+      {
+        "name": "User-Login API - Python & Flask",
+        "logo": "user-login.jpg",
+        "link": "https://users-login-ar.herokuapp.com/"
+      },
+      {
+        "name": "Your Weather 24 - HTML, CSS, JS",
+        "logo": "your-weather.jpg",
+        "link": "https://matiaserodriguez.github.io/wdd230/lesson11/"
+      },
+      {
+        "name": "Pokedex - HTML, CSS, JS",
+        "logo": "pokedex.jpg",
+        "link": "https://matiaserodriguez.github.io/pokedex/"
+      },
+      {
+        "name": "Cocar - HTML, CSS, JS",
+        "logo": "cocar.jpg",
+        "link": "https://matiaserodriguez.github.io/wdd230/cocar/"
+      },
+      {
+        "name": "Old School Game - HTML, CSS, JS",
+        "logo": "guess-number.jpg",
+        "link": "https://matiaserodriguez.github.io/OldSchoolGame/"
+      }
+    ]
+  }

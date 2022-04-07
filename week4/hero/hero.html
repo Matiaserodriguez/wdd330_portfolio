@@ -14,70 +14,79 @@
   </head>
 
   <body>
+    <h1>Create a Hero Story</h1>
       <div class="wrapper">
+        <div>
 
           <form id="hero">
-              <label for="heroName"
-        >Name:
-        <input
-          type="text"
-          id="heroName"
-          name="heroName"
-          autofocus
-          placeholder="Your Super Hero Name"
-          maxlength="32"
-          required
-          />
-        </label>
-        <label for="realName"
-        >Real Name: <input type="password" name="realName" id="realName"
-        /></label>
+            <label for="heroName"
+            >Name:
+            <input
+            type="text"
+            id="heroName"
+            name="heroName"
+            autofocus
+            placeholder="Your Super Hero Name"
+            maxlength="32"
+            required
+            />
+          </label>
+          <label for="realName"
+          >Real Name: <input type="password" name="realName" id="realName"
+          /></label>
+        </div>
         
         <p>Super Powers:</p>
-      <label for="flight"
-        >Flight:
-        <input type="checkbox" id="flight" value="Flight" name="powers" />
-    </label>
-    <label for="strength"
-    >Super Strength:
-    <input type="checkbox" id="strength" value="Strength" name="powers" />
-</label>
-<label for="speed"
->Super Speed:
-<input type="checkbox" id="speed" value="Super Speed" name="powers" />
-</label>
-<label for="energy"
->Energy Blasts:
-<input
-type="checkbox"
-id="energy"
-value="Energy Blasts"
-name="powers"
-/>
-</label>
-<label for="telekinesis"
->Telekinesis:
-<input
-type="checkbox"
-id="telekinesis"
-value="Telekinesis"
-          name="powers"
-          />
+        <div>
+
+          <label for="flight"
+          >Flight:
+          <input type="checkbox" id="flight" value="Flight" name="powers" />
         </label>
-        
-        <p>What type of hero are you?</p>
-        <label for="hero"
-        >Hero:
-        <input type="radio" name="category" value="Hero" id="hero1" />
+        <label for="strength"
+        >Super Strength:
+        <input type="checkbox" id="strength" value="Strength" name="powers" />
+      </label>
+      <label for="speed"
+      >Super Speed:
+      <input type="checkbox" id="speed" value="Super Speed" name="powers" />
     </label>
-    <label for="villain"
-    >Villain:
-    <input type="radio" name="category" value="Villain" id="villain" />
+    <label for="energy"
+    >Energy Blasts:
+    <input
+    type="checkbox"
+    id="energy"
+    value="Energy Blasts"
+    name="powers"
+    />
+  </label>
+  <label for="telekinesis"
+  >Telekinesis:
+  <input
+  type="checkbox"
+  id="telekinesis"
+  value="Telekinesis"
+  name="powers"
+  />
+</label>
+</div>
+
+<p>What type of hero are you?</p>
+<div>
+
+  <label for="hero"
+  >Hero:
+  <input type="radio" name="category" value="Hero" id="hero1" />
+</label>
+<label for="villain"
+>Villain:
+<input type="radio" name="category" value="Villain" id="villain" />
 </label>
 <label for="anti-hero"
 >Anti-Hero:
 <input type="radio" name="category" value="Antihero" id="anti-hero" />
 </label>
+</div>
 
 <label for="age"
 >Age: <input type="number" id="age" name="age" min="0" step="1"

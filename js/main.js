@@ -2,44 +2,52 @@ const ol = document.querySelector(".my-ol");
 
 const links = [
   {
-    label: "Week 1 notes",
+    label: "WEEK 1 notes",
     url: "week1/index.html",
   },
   {
-    label: "Week 2 notes",
+    label: "WEEK 2 notes",
     url: "week2/index.html",
   },
   {
-    label: "Week 3 notes",
+    label: "WEEK 3 notes",
     url: "week3/index.html",
   },
   {
-    label: "Week 4 notes",
+    label: "WEEK 4 notes",
     url: "week4/index.html",
   },
   {
-    label: "Week 5 notes",
+    label: "WEEK 5 notes",
     url: "week5/index.html",
   },
   {
-    label: "Week 6 ToDo APP",
+    label: "WEEK 6 ToDo APP",
     url: "todos/index.html",
   },
   {
-    label: "Week 7",
+    label: "WEEK 7",
     url: "week7/index.html",
   },
   {
-    label: "Week 8",
+    label: "WEEK 8",
     url: "week8/index.html",
   },
   {
-    label: "Week 9",
+    label: "WEEK 9",
     url: "week9/",
   },
   {
-    label: "Week 10",
+    label: "WEEK 10",
     url: "week10/",
+  },
+  {
+    label: "WEEK 11",
+    url: "week11/",
+  },
+  {
+    label: "2ND CHALLENGE",
+    url: "challenge2/",
   },
 ];
 

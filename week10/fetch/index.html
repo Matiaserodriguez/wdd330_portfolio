@@ -12,18 +12,21 @@
     <title>Fetchs</title>
   </head>
   <body>
-    <h1>Use of Fetch</h1>
-    <h2>Notes</h2>
+    <div class="wrapper-p padding">
 
-    <h3>Supplying request options</h3>
-    <p>The fetch() method can be used in an asynchronous function with the keyword "await" before it, or using ".then()" method.<br>
+      <h1>Use of Fetch</h1>
+      <h2>Notes</h2>
+      
+      <h3>Supplying request options</h3>
+      <p>The fetch() method can be used in an asynchronous function with the keyword "await" before it, or using ".then()" method.<br>
         fetch() can optionally accept a second parameter where we can specify the HTTP requests methods such as GET, POST, PUT, DELETE, 
         as well as the mode no-cors, *cors, same-origin (used to get permission to access selected resources from a server, on a different origin (domain) to which it belongs.
         Inside of this same parameter we can specify: "cache", "credentials", "redirect", "referrerPolicy" 
         and both the "headers" and the "body" in case it's necessary (for instance, we don't pass anything to the body in a GET request).<br>
-
+        
         <strong><br>QUESTION: </strong> what is the best way to manage the CORS policy to prevent anything that may cause problems?
-    </p>
+      </p>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
